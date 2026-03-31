@@ -18,7 +18,7 @@ export default function HomePage() {
           className="max-w-4xl mx-auto text-center"
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Hi, I'm <span className="text-primary-600">[YOUR_NAME]</span>
+            Hi, I'm <span className="text-primary-600">Oselu Fortunatus</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8">
             [YOUR_HEADLINE]

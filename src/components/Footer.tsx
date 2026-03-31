@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-lg font-semibold mb-4">[YOUR_NAME]</h3>
+            <h3 className="text-lg font-semibold mb-4">Oselu Fortunatus</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
               Building innovative solutions that solve real-world problems.
             </p>
@@ -18,7 +18,7 @@ export default function Footer() {
               <a href="[LINKEDIN_LINK]" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
                 <FaLinkedin size={20} />
               </a>
-              <a href="mailto:[EMAIL]" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
+              <a href="mailto:oselufortunatis@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
                 <Mail size={20} />
               </a>
             </div>
@@ -36,7 +36,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-gray-600 dark:text-gray-400">[EMAIL]</li>
+              <li className="text-gray-600 dark:text-gray-400">oselufortunatis@gmail.com</li>
               <li>
                 <button className="text-primary-600 hover:text-primary-700 font-medium">
                   Book a Call
@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-200 dark:border-gray-700 mt-8 pt-8 text-center text-gray-600 dark:text-gray-400">
-          <p>&copy; {new Date().getFullYear()} [YOUR_NAME]. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Oselu Fortunatus. All rights reserved.</p>
         </div>
       </div>
     </footer>
