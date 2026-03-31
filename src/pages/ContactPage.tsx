@@ -52,7 +52,7 @@ export default function ContactPage() {
       }
     } catch (error) {
       console.error('Error sending message:', error)
-      alert('Failed to send message. Please try again or email me directly at [EMAIL]')
+      alert('Failed to send message. Please try again or email me directly at oselufortunatis@gmail.com')
     }
   }
 
@@ -154,7 +154,7 @@ export default function ContactPage() {
         <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
           <h2 className="text-xl font-semibold mb-4">Or reach me directly:</h2>
           <p className="text-gray-600 dark:text-gray-400">
-            Email: <a href="mailto:[EMAIL]" className="text-primary-600 hover:underline">[EMAIL]</a>
+            Email: <a href="mailto:oselufortunatis@gmail.com" className="text-primary-600 hover:underline">oselufortunatis@gmail.com</a>
           </p>
         </div>
       </motion.div>

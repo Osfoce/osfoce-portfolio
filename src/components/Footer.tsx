@@ -12,10 +12,10 @@ export default function Footer() {
               Building innovative solutions that solve real-world problems.
             </p>
             <div className="flex space-x-4">
-              <a href="[GITHUB_LINK]" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
+              <a href="https://github.com/osfoce" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
                 <FaGithub size={20} />
               </a>
-              <a href="[LINKEDIN_LINK]" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
+              <a href="https://www.linkedin.com/in/oselufortunatus/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
                 <FaLinkedin size={20} />
               </a>
               <a href="mailto:oselufortunatis@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
