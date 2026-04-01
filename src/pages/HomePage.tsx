@@ -21,7 +21,7 @@ export default function HomePage() {
             Hi, I'm <span className="text-primary-600">Oselu Fortunatus</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-8">
-            [YOUR_HEADLINE]
+            Smart Contract & Blockchain Developer focused on building secure, scalable DeFi systems and seamless Web3 applications.         
           </p>
           <div className="flex gap-4 justify-center">
             <button

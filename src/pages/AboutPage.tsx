@@ -12,7 +12,13 @@ export default function AboutPage() {
           <h1 className="text-4xl font-bold mb-6">About Me</h1>
           <div className="prose dark:prose-invert max-w-none">
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-4">
-              [YOUR_BIO]
+              I am a Smart Contract and Blockchain Developer dedicated to building secure, production-ready decentralized systems.
+
+              I design and implement smart contracts, connect them to modern frontends, and create seamless blockchain-powered user experiences.
+
+              My focus is on DeFi systems and real-world applications, with an emphasis on clean architecture, security, and efficiency.
+
+              I am continuously refining my craft to build scalable solutions that deliver real value.
             </p>
           </div>
         </div>
@@ -26,7 +32,7 @@ export default function AboutPage() {
                 <li>React / Next.js</li>
                 <li>TypeScript</li>
                 <li>Tailwind CSS</li>
-                <li>Vue.js</li>
+                {/* <li>Vue.js</li> */}
                 <li>Web3.js / Ethers</li>
               </ul>
             </div>
@@ -34,10 +40,10 @@ export default function AboutPage() {
               <h3 className="text-xl font-semibold mb-3">Backend</h3>
               <ul className="space-y-2 text-gray-600 dark:text-gray-400">
                 <li>Node.js / Express</li>
-                <li>Python / Django</li>
-                <li>PostgreSQL</li>
+                {/* <li>Python / Django</li> */}
+                {/* <li>PostgreSQL</li> */}
                 <li>MongoDB</li>
-                <li>GraphQL</li>
+                {/* <li>GraphQL</li> */}
               </ul>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6">
