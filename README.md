@@ -1,4 +1,4 @@
-# Professional Portfolio - [YOUR_NAME]
+# Professional Portfolio - Oselu Fortunatus
 
 A modern, high-performance developer portfolio built with React, TypeScript, and Vite. Features detailed case studies, project showcases, and an integrated booking system.
 
@@ -97,6 +97,4 @@ MIT
 
 ## Contact
 
-[YOUR_NAME] - [EMAIL]
-
-Project Link: [GITHUB_LINK]
+Oselu Fortunatus- oselufortunatus@gmail.com
