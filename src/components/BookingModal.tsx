@@ -32,10 +32,10 @@ export default function BookingModal() {
             className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50"
           />
           <motion.div
-            initial={{ opacity: 0, scale: 0.95, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-lg bg-white dark:bg-gray-900 rounded-2xl shadow-xl z-50"
+            initial={{ opacity: 0, scale: 0.95, x: "-50%", y: "-50%" }}
+            animate={{ opacity: 1, scale: 1, x: "-50%", y: "-50%" }}
+            exit={{ opacity: 0, scale: 0.95, x: "-50%", y: "-50%" }}
+            className="fixed top-1/2 left-1/2 w-full max-w-lg bg-white dark:bg-gray-900 rounded-2xl shadow-xl z-50"
           >
             <div className="p-6">
               <div className="flex justify-between items-center mb-4">
@@ -47,17 +47,16 @@ export default function BookingModal() {
                   <X size={20} />
                 </button>
               </div>
-              
+
               <div className="mb-6">
                 <div className="flex justify-between mb-2">
                   {steps.map((step, index) => (
                     <div
                       key={index}
-                      className={`flex-1 h-1 rounded-full mx-1 ${
-                        index <= currentStep
+                      className={`flex-1 h-1 rounded-full mx-1 ${index <= currentStep
                           ? 'bg-primary-600'
                           : 'bg-gray-200 dark:bg-gray-700'
-                      }`}
+                        }`}
                     />
                   ))}
                 </div>
@@ -65,7 +64,7 @@ export default function BookingModal() {
                   Step {currentStep + 1} of {steps.length}: {steps[currentStep].title}
                 </p>
               </div>
-              
+
               <CurrentStepComponent />
             </div>
           </motion.div>
