@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 import { projects } from '../data/mockData'
 
-const categories = ['All', 'Web3', 'Frontend', 'Backend', 'Full Stack', 'Mobile']
+const categories = ['All', 'Web3', 'Full Stack', "UX/UI Design"]
 
 export default function ProjectsPage() {
   const [selectedCategory, setSelectedCategory] = useState('All')
