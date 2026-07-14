@@ -4,6 +4,7 @@ import { z } from 'zod'
 import { motion } from 'framer-motion'
 import { Send } from 'lucide-react'
 import { ContactFormData } from '../types'
+import emailjs from '@emailjs/browser'
 
 const schema = z.object({
   name: z.string().min(2, 'Name is required'),
@@ -38,21 +39,28 @@ export default function ContactPage() {
 
   const onSubmit = async (data: ContactFormData) => {
     try {
-      const response = await fetch('[WEBHOOK_URL]', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
-      })
-      
-      if (response.ok) {
-        alert('Message sent successfully! I will get back to you soon.')
-        reset()
-      } else {
-        throw new Error('Failed to send message')
-      }
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          name: data.name,
+          email: data.email,
+          projectType: data.projectType,
+          budgetRange: data.budgetRange,
+          message: data.message,
+          time: new Date().toLocaleString(),
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
+
+      alert('Message sent successfully! I will get back to you soon.')
+      reset()
+
     } catch (error) {
       console.error('Error sending message:', error)
-      alert('Failed to send message. Please try again or email me directly at oselufortunatis@gmail.com')
+      alert(
+        'Failed to send message. Please try again or email me directly at oselufortunatus@gmail.com'
+      )
     }
   }
 
@@ -154,7 +162,13 @@ export default function ContactPage() {
         <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
           <h2 className="text-xl font-semibold mb-4">Or reach me directly:</h2>
           <p className="text-gray-600 dark:text-gray-400">
-            Email: <a href="mailto:oselufortunatis@gmail.com" className="text-primary-600 hover:underline">oselufortunatis@gmail.com</a>
+            Email:{" "}
+            <a
+              href="mailto:oselufortunatus@gmail.com"
+              className="text-primary-600 hover:underline"
+            >
+              Send Mail
+            </a>
           </p>
         </div>
       </motion.div>
