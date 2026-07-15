@@ -1,5 +1,7 @@
-import React, { createContext, useContext, useState } from 'react'
+import { createContext, useContext, useState } from 'react'
 import { BookingData } from '../types'
+// import emailjs from '@emailjs/browser'
+
 
 interface BookingContextType {
   isOpen: boolean
@@ -38,13 +40,38 @@ export function BookingProvider({ children }: { children: React.ReactNode }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(bookingData),
       })
-      
+
       if (response.ok) {
         console.log('Booking submitted successfully')
       }
     } catch (error) {
       console.error('Error submitting booking:', error)
     }
+
+    //     try {
+    //   await emailjs.send(
+    //     import.meta.env.VITE_EMAILJS_SERVICE_ID,
+    //     import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+    //     {
+    //       name: data.name,
+    //       email: data.email,
+    //       projectType: data.projectType,
+    //       budgetRange: data.budgetRange,
+    //       message: data.message,
+    //       time: new Date().toLocaleString(),
+    //     },
+    //     import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    //   )
+
+    //   alert('Message sent successfully! I will get back to you soon.')
+    //   reset()
+
+    // } catch (error) {
+    //   console.error('Error sending message:', error)
+    //   alert(
+    //     'Failed to send message. Please try again or email me directly at oselufortunatus@gmail.com'
+    //   )
+    // }
   }
 
   return (

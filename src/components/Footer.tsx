@@ -15,10 +15,10 @@ export default function Footer() {
               <a href="https://github.com/osfoce" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
                 <FaGithub size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/oselufortunatus/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
+              <a href="https://www.linkedin.com/in/oselufortunatus" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
                 <FaLinkedin size={20} />
               </a>
-              <a href="mailto:oselufortunatis@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
+              <a href="mailto:oselufortunatus@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-primary-600">
                 <Mail size={20} />
               </a>
             </div>
@@ -36,7 +36,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-gray-600 dark:text-gray-400">oselufortunatis@gmail.com</li>
+              <li className="text-gray-600 dark:text-gray-400">oselufortunatus@gmail.com</li>
               <li>
                 <button className="text-primary-600 hover:text-primary-700 font-medium">
                   Book a Call

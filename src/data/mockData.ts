@@ -69,19 +69,69 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/Osfoce/Fresh-Bounty",
   },
   {
-    id: "2",
-    slug: "ecommerce-platform",
-    title: "Enterprise E-commerce Platform",
-    description:
-      "Full-featured e-commerce solution with real-time inventory, payment processing, and analytics.",
-    category: "Full Stack",
-    techStack: ["Next.js", "Node.js", "PostgreSQL", "Redis", "Stripe"],
-    problem:
-      "Small businesses lacked affordable, scalable e-commerce solutions with advanced features.",
-    solution:
-      "Built a platform combining the best of Shopify's simplicity with custom enterprise features.",
-    featured: true,
-  },
+  id: "2",
+  slug: "minilend-crypto-backed-lending-dapp",
+  title: "MiniLend - Crypto-Backed Lending dApp",
+
+  description:
+    "A decentralized lending application that allows users to stake ETH as collateral, borrow a mock USD token, repay loans, and withdraw collateral through secure smart contract interactions.",
+
+  fullDescription:
+    "MiniLend is a decentralized crypto-backed lending platform built to demonstrate the core mechanics of DeFi lending systems. The platform enables users to deposit ETH as collateral and borrow a mock USD stablecoin against their holdings. Users can manage the complete loan lifecycle, including collateral deposits, borrowing, repayment, and collateral withdrawals, directly through smart contracts. Designed with education and experimentation in mind, MiniLend provides a practical introduction to decentralized finance while implementing core lending concepts such as collateralization, loan management, token approvals, and blockchain-based asset custody. The project features a Solidity-powered backend, Foundry deployment workflows, and a frontend integrated with MetaMask through Viem, allowing users to interact seamlessly with the protocol on a local Ethereum environment.",
+
+  category: "Web3",
+
+  techStack: [
+    "Solidity",
+    "Foundry",
+    "Anvil",
+    "Viem",
+    "JavaScript",
+    "HTML",
+    "MetaMask",
+    "OpenZeppelin Contracts",
+    "ERC20",
+    "Ethereum"
+  ],
+
+  problem:
+    "Traditional financial lending systems often require lengthy approval processes, intermediaries, and extensive documentation. For developers learning DeFi, there is also a lack of simple educational projects that clearly demonstrate the complete lifecycle of decentralized lending, collateral management, borrowing, repayment, and asset withdrawal.",
+
+  solution:
+    "Built a decentralized lending protocol that allows users to stake ETH as collateral and borrow a USD-pegged token through smart contracts, providing a transparent and hands-on demonstration of DeFi lending mechanics without relying on centralized intermediaries.",
+
+  architecture:
+    "The platform consists of two Solidity smart contracts: MockUSDT, an ERC20 token used as the borrowable asset, and MiniLend, which manages collateral deposits, loan issuance, repayment tracking, and collateral withdrawals. Foundry and Anvil are used for contract deployment and local blockchain simulation, while a frontend application built with JavaScript and Viem connects users to MetaMask for wallet authentication and transaction signing.",
+
+  challenges: [
+    "Designing a secure collateralized lending workflow",
+    "Managing ETH collateral and ERC20 borrowing within the same protocol",
+    "Implementing loan repayment and collateral withdrawal logic",
+    "Integrating MetaMask with Viem for seamless wallet interactions",
+    "Testing contract behavior in a local blockchain environment",
+    "Creating a beginner-friendly architecture without sacrificing core DeFi concepts"
+  ],
+
+  results: [
+    "Successfully implemented ETH-backed borrowing functionality",
+    "Built a complete lending lifecycle including stake, borrow, repay, and withdraw operations",
+    "Integrated MetaMask connectivity and transaction signing",
+    "Established a reproducible local development workflow using Foundry and Anvil",
+    "Created an educational DeFi project demonstrating core lending protocol mechanics"
+  ],
+
+  metrics: [
+    { label: "Loans Issued", value: "Local Testing" },
+    { label: "Collateral Locked", value: "Local Testing" },
+    { label: "Transactions", value: "Local Testing" }
+  ],
+
+  featured: true,
+
+  liveUrl: "https://mini-lend.vercel.app",
+
+  githubUrl: "https://github.com/Johnpii1/Mini-lend"
+},
   {
     id: "3",
     slug: "real-time-analytics",

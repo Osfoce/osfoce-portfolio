@@ -95,18 +95,17 @@ export default function HomePage() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Frontend</h3>
               <ul className="space-y-2 text-gray-600 dark:text-gray-400">
-                <li>React / Next.js</li>
-                <li>TypeScript</li>
+                <li>React / Node.js</li>
+                <li>Javascript</li>
                 <li>Tailwind CSS</li>
-                <li>Framer Motion</li>
               </ul>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-4">Backend</h3>
               <ul className="space-y-2 text-gray-600 dark:text-gray-400">
                 <li>Node.js</li>
-                <li>Python</li>
-                <li>PostgreSQL</li>
+                <li>Javascript</li>
+                {/* <li>PostgreSQL</li> */}
                 <li>MongoDB</li>
               </ul>
             </div>

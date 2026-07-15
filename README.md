@@ -1,100 +1,129 @@
-# Professional Portfolio - Oselu Fortunatus
+# Osfoce — Software & Blockchain Engineer Portfolio
 
-A modern, high-performance developer portfolio built with React, TypeScript, and Vite. Features detailed case studies, project showcases, and an integrated booking system.
+> A modern portfolio showcasing full-stack software engineering, blockchain development, smart contracts, and Web3 applications.
 
-## Tech Stack
+---
 
-- **Framework:** React 18 with TypeScript
-- **Build Tool:** Vite
-- **Styling:** Tailwind CSS
-- **Animations:** Framer Motion
-- **Routing:** React Router DOM
-- **Forms:** React Hook Form + Zod
-- **Deployment:** Vercel
-- **CI/CD:** GitHub Actions
+## 🌐 Live Portfolio
 
-## Features
+**Portfolio:** https://osfoce-portfolio.vercel.app
 
-- 🚀 **Performance Optimized** - Lighthouse score ≥ 90
-- 📱 **Responsive Design** - Works on all devices
-- 🎨 **Smooth Animations** - Intentional, professional motion
-- 📊 **Analytics Ready** - Track user interactions
-- 📝 **Case Studies** - Detailed project breakdowns
-- 📅 **Booking System** - Multi-step consultation booking
-- 🔍 **SEO Friendly** - Optimized meta tags and structure
+---
 
-## Getting Started
+## 👨‍💻 About
 
-### Prerequisites
+This portfolio showcases my work as a **Software & Blockchain Engineer**, highlighting projects across Web2 and Web3 with a focus on secure software architecture, decentralized systems, smart contract development, and user-centered application design.
 
-- Node.js 18+
-- npm or yarn
+My goal is to build scalable, secure, and impactful digital products that solve real-world problems through software and blockchain technology.
 
-### Installation
+---
 
-\`\`\`bash
-# Clone the repository
-git clone [YOUR_REPO_URL]
+## 🚀 Featured Projects
 
-# Navigate to project directory
-cd portfolio
+### GeoLedger
 
-# Install dependencies
-npm install
+A land verification and ownership management platform designed to reduce land fraud in Nigeria by providing secure land verification, ownership tracking, automated deed generation, and legally compliant documentation workflows.
 
-# Start development server
-npm run dev
-\`\`\`
+**Highlights**
+- Secure user authentication and authorization
+- Land verification workflows
+- Automated deed generation
+- Ownership tracking and Land ID issuance
+- Secure database management
 
-### Environment Variables
+---
 
-Create a `.env` file in the root directory:
+### Aboki.eth
 
-\`\`\`env
-VITE_WEBHOOK_URL=[YOUR_WEBHOOK_URL]
-VITE_ANALYTICS_ID=[YOUR_ANALYTICS_ID]
-\`\`\`
+A decentralized crypto-backed lending platform that enables users to stake digital assets and access fiat-equivalent loans through secure smart contracts.
 
-### Building for Production
+**Highlights**
+- Collateralized lending system
+- Smart contract-based loan management
+- Per-second interest accrual model
+- Multi-chain ready architecture
+- Security-focused design
 
-\`\`\`bash
-npm run build
-npm run preview
-\`\`\`
+---
 
-## Deployment
+### Happy Bounty
 
-This project is configured for automatic deployment to Vercel:
+A Web3 bounty management platform that enables organizations, DAOs, and communities to create and distribute ETH and USDC rewards using secure on-chain payout mechanisms.
 
-1. Push to `main` branch triggers production deployment
-2. Pull requests create preview deployments
-3. GitHub Actions handles CI/CD pipeline
+**Highlights**
+- ETH and USDC reward support
+- Multiple payout models
+- Individual claim architecture
+- Reentrancy protection
+- Transparent reward distribution
 
-## Project Structure
+---
 
-\`\`\`
-src/
-├── components/     # Reusable UI components
-├── pages/         # Route pages
-├── context/       # React Context providers
-├── hooks/         # Custom React hooks
-├── types/         # TypeScript type definitions
-├── data/          # Mock data and constants
-├── utils/         # Utility functions
-└── assets/        # Static assets
-\`\`\`
+## 🛠️ Tech Stack
 
-## Performance Metrics
+### Frontend
 
-- First Contentful Paint: < 0.8s
-- Time to Interactive: < 1.2s
-- Lighthouse Performance: 95+
-- Bundle Size: Optimized with code splitting
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
-## License
+### Backend
 
-MIT
+- Node.js
+- Express.js
+- MongoDB
 
-## Contact
+### Blockchain
 
-Oselu Fortunatus- oselufortunatus@gmail.com
+- Solidity
+- Foundry
+- Hardhat
+- OpenZeppelin
+- Ethers.js
+
+### Web3
+
+- RainbowKit
+- Wallet Integration
+
+### Deployment
+
+- Vercel
+
+---
+
+## ✨ Key Features
+
+- Responsive and mobile-first design
+- Interactive project case studies
+- Modern UI and animations
+- Performance-focused architecture
+- Integrated contact and consultation workflows
+- SEO-friendly structure
+
+---
+
+## 📫 Contact
+
+**Email:** oselufortunatus@gmail.com
+
+**GitHub:** https://github.com/osfoce
+
+**LinkedIn:** https://www.linkedin.com/in/oselufortunatus
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👤 Author
+
+### Oselu Fortunatus (Osfoce)
+
+Software & Blockchain Engineer specializing in smart contract development, decentralized applications, and full-stack software solutions.
+
+Building secure, scalable, and impactful technology for the future.
